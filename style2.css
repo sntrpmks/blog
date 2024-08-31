@@ -41,7 +41,6 @@ body {
     mix-blend-mode: color-dodge;
 }
 
-
 .sidebar ul {
     list-style: none;
     margin: 0;
@@ -61,73 +60,51 @@ body {
     color: #ccc;
 }
 
-.btn {
-    background-color: #08445e;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #08445e;
-}
 
 .main-content {
-    margin-left: 250px;
+    margin-left: 300px;
     padding: 20px;
 }
 
 .post {
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 20px;
-    margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .post img {
-    width: 83%;
-    height: 200px;
+    width: 100%;
+    width: 1225px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 
 }
 
-.keterangan {
-    display: block;
+.sec-content {
+    margin-left: 300px;
     padding: 20px;
+}
+
+.postt {
     background-color: #fff;
+    padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    color: #333;
-    width: 80%;
 }
-
-.keterangan:hover {
-    background-color: #f2f2f2;
-    border-color: #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.postt img {
+    width: 100%;
+    width: 640px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 5px 
 }
-
-.keterangan h2 {
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-.keterangan p {
-    font-size: 18px;
-    color: #666;
-}
-
-.keterangan h1 {
-    margin-left: auto;
-    font-size: 34px;
-    margin-top: 20px;
+.posttt img {
+    width: 100%;
+    width: 720px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 5px 
 }
