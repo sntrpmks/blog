@@ -115,7 +115,7 @@ body {
     width: 1200px;
     height: 350px;
     object-fit: cover;
-    border-radius: 5px 
+    border-radius: 5px;
 }
 
 
@@ -136,7 +136,7 @@ body {
     width: 640px;
     height: 480px;
     object-fit: cover;
-    border-radius: 5px 
+    border-radius: 5px;
 }
 
 .postt p {
@@ -202,7 +202,7 @@ body {
     margin-top: 20px;
 }
   
-  .sosial-media {
+.sosial-media {
     margin-right: 60px;
     margin-left: 100px;
     margin-top: 415px;
@@ -214,29 +214,29 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-  }
+}
   
-  .sosial-media a {
+.sosial-media a {
     margin-right: 10px;
     font-size: 18px;
     color: #fff;
-  }
+}
   
-  .sosial-media a:hover {
+.sosial-media a:hover {
     color: #337ab7;
   }
-  .sosial-media img {
+.sosial-media img {
     margin-right: 5px;
     width: 24px;
     height: 24px;
-  }
+}
   
-  .sosial-media a {
+.sosial-media a {
     margin-right: 10px;
     font-size: 18px;
     color: #fff;
-  }
+}
   
-  .sosial-media a:hover {
+.sosial-media a:hover {
     color: #337ab7;
   }
