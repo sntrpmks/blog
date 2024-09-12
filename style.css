@@ -101,21 +101,23 @@ body {
 }
 
 .post1 p {
-    font-size: 19px;
+    font-size: 18px;
     color: #666;
 }
 
 .post1 h1 {
     font-size: 32px;
     color: #505050;
+    margin-top: 10px;
 }
 
 .post1 img {
     width: 100%;
-    width: 1200px;
+    width: 1160px;
     height: 350px;
     object-fit: cover;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -140,7 +142,7 @@ body {
 }
 
 .postt p {
-    font-size: 19px;
+    font-size: 18px;
     color: #666;
 }
 
@@ -159,7 +161,7 @@ body {
     height: 350px;
 }
 .posttt p {
-    font-size: 19px;
+    font-size: 18px;
     color: #666;
 }
 
@@ -204,8 +206,8 @@ body {
   
 .sosial-media {
     margin-right: 60px;
-    margin-left: 100px;
-    margin-top: 415px;
+    margin-left: 90px;
+    margin-top: 460px;
     margin-bottom: 60px; 
     padding: 20px;
     position: fixed;
@@ -240,3 +242,77 @@ body {
 .sosial-media a:hover {
     color: #337ab7;
   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+    table {
+        border: 0;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+        padding-right: 10px;
+        border: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 10px;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        white-space: nowrap;
+    }
+}
+.date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
