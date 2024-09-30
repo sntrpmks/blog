@@ -323,3 +323,147 @@ tr:hover {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+.sosial-media1 {
+    margin-right: 80px;
+    margin-left: 40px;
+    margin-top: 460px;
+    margin-bottom: 60px; 
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.sosial-media1 a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+  
+.sosial-media1 a:hover {
+    color: #337ab7;
+  }
+.sosial-media1 img {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+  
+.sosial-media1 a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+  
+.sosial-media1 a:hover {
+    color: #337ab7;
+  }
+.body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.search-box {
+    padding: 10px;
+    margin-left: -50px;
+    margin-top: -260px;
+}
+body.search-mode .sidebar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #206edc;
+    margin-bottom: 1px;
+}
+body.search-mode .logoo{
+        margin-top: -5px;
+        margin-bottom: 60px; 
+        margin-right: 1340px;
+}
+    
+body.search-mode .logoo img{
+        width: 280px;
+        height: 50px;
+        border-radius: 0%;
+        mix-blend-mode:exclusion;
+}
+body.search-mode .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    display: flex; /* tambahkan properti ini */
+    flex-wrap: wrap; /* tambahkan properti ini */
+    justify-content: space-around; /* tambahkan properti ini */
+}
+
+body.search-mode .sidebar li {
+    margin-top: 5px;
+    margin-right: 160px; /* ubah nilai ini untuk mengatur jarak antar elemen */
+    margin-bottom: 20px; /* ubah nilai ini untuk mengatur jarak antar elemen */
+    margin-top: -100px;
+    flex-basis: 20%; /* tambahkan properti ini untuk mengatur lebar elemen */
+}
+
+body.search-mode .sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body.search-mode .sidebar a:hover {
+    color: #ccc;
+}
+
+body.search-mode .sosial-media1 {
+    margin-right: 60000px;
+    margin-left: 40px;
+    margin-top: 440px;
+    margin-bottom: 60px; 
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+body.search-mode .sosial-media1 a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+  
+body.search-mode .sosial-media1 a:hover {
+    color: #337ab7;
+  }
+body.search-mode .sosial-media1 img {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+  
+body.search-mode .sosial-media1 a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+  
+body.search-mode .sosial-media1 a:hover {
+    color: #337ab7;
+  }
+
+  body.search-mode .search-box {
+    padding: 10px;
+    margin-top: -880px;
+    margin-right: -2700px;
+}
+body.search-mode .main-content1 {
+    padding: 20px;
+    margin-right: 210px;
+    margin-left: 250px;
+}
