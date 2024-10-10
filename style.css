@@ -111,6 +111,12 @@ body {
     margin-top: 10px;
 }
 
+.post1 h6 {
+    font-size: 16px;
+    color: #505050;
+    margin-top: 10px;
+}
+
 .post1 img {
     width: 100%;
     width: 1160px;
